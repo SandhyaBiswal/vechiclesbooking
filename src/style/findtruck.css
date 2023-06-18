@@ -1,0 +1,125 @@
+.find_truck_left{
+    background: linear-gradient(rgb(249,168,38,0.9),rgb(249,168,38,0.9)),
+    url('../assets/images/img3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+}
+.find_truck_left h2{
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: #000d6b;
+}
+
+.form_group{
+    width:30%;
+    margin-bottom: 0;
+}
+.form_group input{
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+    /* border: none; */
+    outline: none;
+    width: 100%;
+    margin-top:12px;
+
+}
+.form_group input::placeholder{
+   color: #7c8a97;
+}
+
+.form{
+    background-color: #fff;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.form_group button{
+    background-color: #fff;
+    background: #000d6b;
+    color: #fff;
+    padding: 8px 15px;
+    width:100%;
+    border: none;
+    outline: none;
+    
+}
+/* .form_group button:hover{
+    background-color: #000d6b;
+    color: #fff; */
+/* } */
+.hero_slider_section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 150px;
+
+}
+.hero_form{
+    position: absolute;
+    bottom: -120px;
+    z-index: 11;
+    width: 100%;
+}
+.form_row{
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+.journey_time::before{
+   content:'journey time';
+   margin-right: 0.8rem;
+   color: #7c8a97;
+}
+
+@media only screen and(max-width:992px){
+    .find_truck_left{
+        padding: 65px 22px;
+    }
+    .find_truck_left h1{
+        font-size: 1.5rem;
+    }
+    .form{
+        padding: 30px 10px;
+    }
+    .form_group input, .select_group select{
+       padding: 7px 10px;
+       font-size: .8rem;
+    }
+    .hero_form{
+        bottom:-100px
+    }
+}
+@media only screen and (max-width: 768px){
+    .find_truck_left{
+        padding-top: 20px;
+        padding-bottom: 0;
+        background: #fff;
+        text-align: center;
+    }
+    .form{
+        padding: 20px 10px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+.form_group{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.form_group input{
+    font-size: 0.7rem !important;
+
+}
+.find_truck-btn{
+  font-size: .8rem;
+}
+.find_truck_left h2{
+    font-size: 1rem;
+}
+.hero_form{
+    bottom: -220px;
+}
+}
+
